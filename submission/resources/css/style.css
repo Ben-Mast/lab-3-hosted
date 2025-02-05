@@ -1,0 +1,51 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding: 10px;
+}
+.navbar .navbar-brand {
+    color: black !important;  /* Ensure text is visible */
+    font-weight: bold;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 75vh;
+  }
+  
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-link {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: black;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
